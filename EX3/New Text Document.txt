@@ -1,0 +1,32 @@
+/* Hello!
+This one is a simple one.
+By now you must have created the portfolio page along with the ‘contact-me’ page. 
+You must also have added styles to it. Please create an external css file and 
+move the styles to it . Link the file to html page(s).
+
+Please create an ‘ex3’ folder in git-repo that you used for ex1 and upload the page. 
+Share the link, here. Save this and Submit.
+
+(OR)
+
+create a new folder (FSD) in http://spaces.w3schools.com , create an ‘ex3’ folder in it, 
+upload both html pages to that location , publish/save and share the link here. 
+Save this and Submit.
+
+Feel free to click on the hint button on the top right of this page , to see sample page(s).
+
+
+------------
+GitHub link:
+------------
+Link:- 
+
+
+--------------------------------------
+http://spaces.w3schools.com link here:
+--------------------------------------
+Link:- 
+
+
+*/
+
