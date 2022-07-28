@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Class Component</h1>
+    <div id="mountNode"></div>
+    <h1>Function Component</h1>
+    <div id="mountNodeFun"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+    function Hello(props){
+        return <div>Hello {props.type} {props.name} !!</div>;
+      }
+      ReactDOM.render([<Hello name="Jane" type="Morning" />,
+                       <Hello name="John" type="Morning" />]
+                       , mountNodeFun);
+        
+                       
+
+        </script>
+
+<script type="text/babel">
+
+class Hello1 extends React.Component{
+    render(){
+      return <div> Hello {this.props.name}! Good {this.props.greeting} </div>;
+      
+    }
+  }
+  ReactDOM.render([<Hello1 name="Joda" greeting="Morning" />,
+                   <Hello1 name="Tammy" greeting="Morning" />]
+                   , mountNode);
+       
+</script>
+
+</body>
+</html>
